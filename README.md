@@ -12,6 +12,7 @@
 5. 或者谷歌开启允许跨域,参考 http://camnpr.com/archives/chrome-args-disable-web-security.html
 
 1.公司是否前后端分离 是否使用构建工具 是否使用git
+
 2.spa页面
 ```
 问题=》 seo搜索拦路虎  Prerender 预渲染 当搜索引擎后者蜘蛛爬虫访问网站的时候在服务器端对其转接js渲染完成的页面
