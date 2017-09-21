@@ -29,6 +29,7 @@
     1.2>合理设置HTTP缓存
       缓存为什么快相信很简单吧，下载到本地的小电影可以随便快进吧，网上呢？所以呢当他尽可能的缓存好了反正他们的手机内存也不差你这几百k的数据。接下来说说 干货=》注意一点缓存的请求状态是304只有请求header没有body会节省带宽，对与不变的资源使用在请求时候 HTTP Header中的Expires设置一个很长的过期头时间越久越好，对一下不变但是不频繁变化的数据使用Last-Modifed来做请求验证，尽可能的让资源在缓存中存在的更久。
       想深入的小伙伴=》HTTP1.1协议中关于缓存策略的描述  Fiddler HTTP Performance中关于缓存的介绍
-      <p>This is <a href="http://example.com/" title="Title">
-an example</a> inline link.</p>
+      
 ```
+<p>This is <a href="http://example.com/" title="Title">
+an example</a> inline link.</p>
