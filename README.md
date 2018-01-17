@@ -61,6 +61,11 @@ https://zhuanlan.zhihu.com/p/25565788 =》来源
  5>.代码优化简单一说大家都懂程序员是出了名的懒 带上一句至高追求=》一行代码实现一切功能
    预解释 作用域链 DOM碎片 事件委托 页面回流重绘 数据访问多次写变量 不必要时不必包 不使用with 拒绝eval 字符串拼接用join 提倡新版ES
 ```
-node npm error 深度记录
-npm install --global windows-build-tools
-npm --add-python-to-path install --global windows-build-tools
+## Node
+##### npm web3.js
+```
+error node-gyp rebuild
+admin powershell
+ npm install --global windows-build-tools
+ npm --add-python-to-path install --global windows-build-tools
+```
