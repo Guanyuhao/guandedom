@@ -68,4 +68,6 @@ error node-gyp rebuild
 admin powershell
  npm install --global windows-build-tools
  npm --add-python-to-path install --global windows-build-tools
+error if not defined npm_config_node_gyp
+重启 vscode  记得验证 python 的环境变量
 ```
