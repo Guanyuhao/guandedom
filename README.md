@@ -67,11 +67,13 @@ https://zhuanlan.zhihu.com/p/25565788 =》来源
 搭建express 
 npm install web3
 error node-gyp rebuild
+https://github.com/nodejs/node-gyp 解决方案
+https://github.com/felixrieseberg/windows-build-tools =》下载源c编译node_module
 admin powershell
  npm install --global --production windows-build-tools
 success 添加python环境变量（目录地址可以通过npm config list 查看） win用户苦逼 
 重启 vscode  记得先验证 python 的环境变量
 接下来开始学习英文了(API)
-https://github.com/felixrieseberg/windows-build-tools
+
 web3关于tocken 交易的ABI 请去网上爬区可以 ABI就是合约编译的方法可以用一套最全的写死
 ```
