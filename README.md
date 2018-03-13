@@ -73,4 +73,5 @@ success 添加python环境变量（目录地址可以通过npm config list 查�
 重启 vscode  记得先验证 python 的环境变量
 接下来开始学习英文了(API)
 https://github.com/felixrieseberg/windows-build-tools
+web3关于tocken 交易的ABI 请去网上爬区可以 ABI就是合约编译的方法可以用一套最全的写死
 ```
