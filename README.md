@@ -64,7 +64,7 @@ https://zhuanlan.zhihu.com/p/25565788 =》来源
 ## Node 
 ### web3 学习
 ```
-搭建express 不会你就放弃把
+搭建express 
 npm install web3
 error node-gyp rebuild
 admin powershell
@@ -72,4 +72,5 @@ admin powershell
 success 添加python环境变量（目录地址可以通过npm config list 查看） win用户苦逼 
 重启 vscode  记得先验证 python 的环境变量
 接下来开始学习英文了(API)
+https://github.com/felixrieseberg/windows-build-tools
 ```
