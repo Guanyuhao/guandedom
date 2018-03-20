@@ -73,7 +73,9 @@ admin powershell
  npm install --global --production windows-build-tools
 success 添加python环境变量（目录地址可以通过npm config list 查看） win用户苦逼 
 重启 vscode  记得先验证 python 的环境变量
-接下来开始学习英文了(API)
-
-web3关于tocken 交易的ABI 请去网上爬区可以 ABI就是合约编译的方法可以用一套最全的写死
+接下来开始学习(API)
+web3关于tocken 去区块浏览器查询 交易的ABI Solidity
+```
+```
+node种for循环异步嵌套的问题 优雅的利用promise
 ```
