@@ -75,6 +75,7 @@ success 添加python环境变量（目录地址可以通过npm config list 查�
 重启 vscode  记得先验证 python 的环境变量
 接下来开始学习(API)
 web3关于tocken 去区块浏览器查询 交易的ABI Solidity
+http://solidity.readthedocs.io/en/v0.4.21/ 智能合约学习
 ```
 ```
 node种for循环异步嵌套的问题 优雅的利用promise
