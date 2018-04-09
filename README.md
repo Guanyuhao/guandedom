@@ -79,4 +79,32 @@ http://solidity.readthedocs.io/en/v0.4.21/ 智能合约学习
 ```
 ```
 node种for循环异步嵌套的问题 优雅的利用promise
+forEachOf 中嵌套if判断 最后结果没有等待！👇
+var v =[]
+var arr = [1,2,3,4,5,6,7,8,9,10]
+async.forEachOf(arr,(item,key,callback)=>{
+    one()
+    .then(()=>{
+        // if(item>3){
+            two()
+            .then(()=>{
+                v.push(1) 
+                callback()
+            })
+        // }      
+    })
+    
+},err=>{
+    console.log(v)
+})
+function one (){
+    return new Promise((resolve,reject)=>{
+        resolve()
+    })
+}
+function two (){
+    return new Promise((resolve,reject)=>{
+        resolve()
+    })
+}
 ```
