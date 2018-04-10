@@ -112,7 +112,7 @@ function two (){
 function result(){
 var isEnd = 0
    ,isEnds = 0
-   return new Promise((resolve,reject)=>{
+ return new Promise((resolve,reject)=>{
      arr.forEach((item,key,arr)=>{
       one()
       .then(()=>{
@@ -129,7 +129,7 @@ var isEnd = 0
          }
       })
     }) 
-   })
+  })
 } 
-
+result().then((a)=>{console.log(a)})
 ```
