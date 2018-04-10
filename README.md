@@ -107,4 +107,29 @@ function two (){
         resolve()
     })
 }
+//解决
+
+function result(){
+var isEnd = 0
+   ,isEnds = 0
+   return new Promise((resolve,reject)=>{
+     arr.forEach((item,key,arr)=>{
+      one()
+      .then(()=>{
+         if(item<3){
+            isEnds++
+            two()
+            .then(()=>{
+              isEnd++
+               if(isEnd == isEnds){
+                 v.push(1)
+                 resolve(v)
+               }
+            })
+         }
+      })
+    }) 
+   })
+} 
+
 ```
