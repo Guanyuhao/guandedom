@@ -135,3 +135,8 @@ var isEnd = 0
 } 
 result().then((a)=>{console.log(a)})
 ```
+### bitcore 学习
+```
+error npm install -g --unsafe-perm=true bitcore
+
+```
