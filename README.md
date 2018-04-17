@@ -63,7 +63,7 @@ https://zhuanlan.zhihu.com/p/25565788 =》来源
  5>.代码优化简单一说大家都懂程序员是出了名的懒 带上一句至高追求=》一行代码实现一切功能
    预解释 作用域链 DOM碎片 事件委托 页面回流重绘 数据访问多次写变量 不必要时不必包 不使用with 拒绝eval 字符串拼接用join 提倡新版ES
 ```
-4.js记录
+4.js记录 ES6
 ```
   对象的深拷贝
   https://juejin.im/post/5abb55ee6fb9a028e33b7e0a
@@ -72,6 +72,19 @@ https://zhuanlan.zhihu.com/p/25565788 =》来源
      函数对象，正则对象，弃用constructor,对象的循环引用
   2.细节访问掘金
   3.思考：实现一个无限嵌套对象的深度拷贝
+  ...[1,2,3]  => 1,2,3  Math.max(...[1,2,3])  Math.max.apply(null,[2,3,4,5,61,1])
+  实现2个数组的差集，并集，交集合
+  let a = new Set([1, 2, 3]);
+  let b = new Set([4, 3, 2]);
+  // 并集
+  let union = new Set([...a, ...b]);
+  // Set {1, 2, 3, 4}
+  // 交集
+  let intersect = new Set([...a].filter(x => b.has(x)));
+  // set {2, 3}
+  // 差集
+  let difference = new Set([...a].filter(x => !b.has(x)));
+  // Set {1}
 ```
 
 
