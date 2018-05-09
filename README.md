@@ -26,6 +26,7 @@ https://zhuanlan.zhihu.com/p/25565788 =》来源
 单页面的用户体验 ↑↑↑
 express phantomjs 搭建静态页面解决spa的seo问题
 
+https://www.youtube.com/watch?v=iYEQMJc1yak 快速方案prerender-node
 ```
 3.前端性能优化
 ```
