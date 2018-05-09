@@ -24,6 +24,8 @@ https://zhuanlan.zhihu.com/p/25565788 =》来源
 ```
 问题=》 seo搜索拦路虎  Prerender 预渲染 当搜索引擎后者蜘蛛爬虫访问网站的时候在服务器端对其转接js渲染完成的页面
 单页面的用户体验 ↑↑↑
+express phantomjs 搭建静态页面解决spa的seo问题
+
 ```
 3.前端性能优化
 ```
