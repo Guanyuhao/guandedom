@@ -25,12 +25,15 @@ https://zhuanlan.zhihu.com/p/25565788 =》来源
 问题=》 seo搜索拦路虎  Prerender 预渲染 当搜索引擎后者蜘蛛爬虫访问网站的时候在服务器端对其转接js渲染完成的页面
 单页面的用户体验 ↑↑↑
 express phantomjs 搭建静态页面解决spa的seo问题
-
 https://www.youtube.com/watch?v=iYEQMJc1yak 快速方案prerender-node
+//说说我的解决方案
+webpack插件犹如神助 PrerenderSPAPlugin 生成环境打包的时候生成静态页面，
+利用nginx进行区分搜索引擎与正常用户，写一套匹配规则，让搜索引擎区爬静态页面.
+
 ```
 3.前端性能优化
 ```
- 从两方面去说：
+ 从两方面来看：
   1.用户的角度去讲，当然是页面越快越好=》页面的渲染速度要快，及时的响应操作=》此时此刻代码没有最快，只有更快。
   2.服务商角度去讲，首当其中就是减少http请求了，其实是带宽，再然后当然就是节省资源了。
  1>（首当其冲）减少http请求
