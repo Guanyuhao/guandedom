@@ -174,3 +174,13 @@ result().then((a)=>{console.log(a)})
 error npm install -g --unsafe-perm=true bitcore
 Permission denied
 ```
+### 2018 5/30 开发启用window 使用Ubuntu
+```
+梯子 https://www.sundabao.com/ubuntu%E4%BD%BF%E7%94%A8shadowsocks/
+关于自动代理模式使用pac模式 文件目录记得vpn设置自动 制定pac文件目录
+关于geit
+Set document metadata failed: 不支持设置属性 metadata::gedit-positionin
+sudo -H  gedit /etc/apt/sources.list &>/dev/null
+微信客户端
+electronic-wechat  https://github.com/geeeeeeeeek/electronic-wechat
+```
