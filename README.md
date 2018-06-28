@@ -30,6 +30,11 @@ https://www.youtube.com/watch?v=iYEQMJc1yak 快速方案prerender-node
 webpack插件犹如神助 PrerenderSPAPlugin 生成环境打包的时候生成静态页面，
 利用nginx进行区分搜索引擎与正常用户，写一套匹配规则，让搜索引擎区爬静态页面.
 ![](seo优化规则.png)
+//spa的动态js优化插件 动态路由进行预加载
+webpackConfig.plugins.push(new PreloadWebpackPlugin({
+    rel: 'prefetch',
+}));
+rel 有2个属性 preload / prefetch
 ```
 3.前端性能优化
 ```
