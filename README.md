@@ -99,6 +99,30 @@ rel 有2个属性 preload / prefetch
   // 差集
   let difference = new Set([...a].filter(x => !b.has(x)));
   // Set {1}
+  //事件中心
+  const initEventEmitter = {
+   _events: {},
+   subscribe(event,callback){
+     if(!this._events[event]){
+       this._events[event] = []
+     }
+     this._events[event].push(callback)
+   },
+   unSubscribe(event){
+     if(this._events && this._events[event]){
+       delete this._events[event]
+     }
+   },
+   dispatch(event,...arg){
+     if(!this._events[event]){
+         return
+     }
+     var i ;
+     for( i = 0 ; i<this._events[event].length; i++ ){
+         this._events[event][i](...arg)
+     }
+   }
+  }
 ```
 
 
