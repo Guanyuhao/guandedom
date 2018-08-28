@@ -10,6 +10,10 @@
    dependencies 与  devDependencies 区别
    lodash 的 _ 加载顺序
    --save 比  --save-dev 更前
+   分离 
+   manifest，runtime
+   webpack 实现持久化缓存
+   https://juejin.im/entry/588a31f98d6d81006c0a7b37
 ```
 
 ## lodash Thinking
