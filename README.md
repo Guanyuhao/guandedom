@@ -123,6 +123,10 @@ rel 有2个属性 preload / prefetch
      }
    }
   }
+  //再见vue响应式
+  http://jungahuang.com/2018/02/07/About-responsive-of-Vue/#more
+  //eventBus
+  https://segmentfault.com/a/1190000012808179
   //vue源码攻读
 ```
 
