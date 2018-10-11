@@ -218,3 +218,5 @@ sudo -H  gedit /etc/apt/sources.list &>/dev/null
 微信客户端
 electronic-wechat  https://github.com/geeeeeeeeek/electronic-wechat
 ```
+### HTOM - PDF 的辛酸
+https://juejin.im/entry/5ac1e7c05188257ddb0fc853
