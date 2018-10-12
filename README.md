@@ -220,3 +220,5 @@ electronic-wechat  https://github.com/geeeeeeeeek/electronic-wechat
 ```
 ### HTOM - PDF 的辛酸
 https://juejin.im/entry/5ac1e7c05188257ddb0fc853
+### 来自掘金Vue2.0 前端架构 
+http://web.jobbole.com/94950/ 
