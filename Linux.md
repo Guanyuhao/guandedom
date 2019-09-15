@@ -3,7 +3,8 @@
 cat /etc/issue
 cat /etc/redhat-release
 ```
-## docker 
+## docker
+``` 
 docker images
 docker ps | -a
 docker start containerID
@@ -14,3 +15,4 @@ docker save -o 文件.tar 镜像
 docker cp 
 Usage:  docker cp [OPTIONS] CONTAINER:SRC_PATH DEST_PATH|-
         docker cp [OPTIONS] SRC_PATH|- CONTAINER:DEST_PATH
+```
